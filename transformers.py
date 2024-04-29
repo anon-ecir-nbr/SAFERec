@@ -5,7 +5,7 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 from scipy import sparse as sps
-from src.settings import MAX_LENGTH
+MAX_LENGTH = 32
 
 
 class SASRec(nn.Module):
