@@ -4,7 +4,7 @@ import torch
 from torch import nn as nn
 import torch.nn.functional as F
 
-from src.models.transformers import SASRec
+from transformers import SASRec
 
 
 class SASRecModel(nn.Module):
