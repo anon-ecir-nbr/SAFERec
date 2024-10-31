@@ -2,6 +2,15 @@
 ### Code implementation for submission: "Self Attention and Frequency Enriched Model for the next-basket recommendation"
 ### At this time, this repository contains only the model architecture code, without the training loop, data preprocessing, and other related components.
 
+# Optimal Hyper Parameneters for SAFERec
+| **Dataset** | **# heads** | **# layers** | **d** | **F<sub>max</sub>** | **L** |
+|-------------|-------------|--------------|-------|----------------------|--------|
+| TaFeng      | 2           | 4            | 64    | 47                   | 256    |
+| Dunnhumby   | 4           | 4            | 64    | 36                   | 32     |
+| TaoBao      | 4           | 2            | 128   | 5                    | 128    |
+
+
+
 # Hyper Parameneters Search Space for Optuna
 ## P-pop
 Prepcoessing: categorical: [None, "binary", "log"]
